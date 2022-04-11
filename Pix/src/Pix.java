@@ -1,9 +1,12 @@
+import java.util.Scanner;
 
 public class Pix {
-
-	public static void main(String[] args) {
-		System.out.println("Pão");
-
+		int cpf;
+		int telefone;
+		String email;
+		String chaveAl;
+		
+		void transferir(String chave) {
+			
+		}
 	}
-
-}
