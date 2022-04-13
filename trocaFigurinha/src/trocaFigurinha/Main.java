@@ -4,29 +4,30 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Pessoa Rafael = new Pessoa();
-		Pessoa Jorge = new Pessoa();
-		
-		//Editado o perfil Rafael
-		Rafael.nome = "Rafael Leite da Silva";
-		Rafael.numFigurinhas = 20;
-		System.out.println("Número de figurinhas iniciais do Rafael: " + Rafael.numFigurinhas);
+		//Editado o perfil Pedro
+		Pessoa pessoa1 = new Pessoa();
+		pessoa1.nome = "Pedro";
+		pessoa1.numFigurinhas = 20;
+		pessoa1.x=1;
+		System.out.println("Número de figurinhas iniciais do Pedro: " + pessoa1.numFigurinhas);
 		
 		//Editando o perfil Jorge
-		Jorge.nome = "Rafael Leite da Silva";
-		Jorge.numFigurinhas = 20;
-		System.out.println("Número de figurinhas do Jorge depois da troca: " + Jorge.numFigurinhas +"\n");
+		Pessoa pessoa2 = new Pessoa();
+		pessoa2.nome = "Jorge";
+		pessoa2.numFigurinhas = 20;
+		System.out.println("Número de figurinhas iniciais do Jorge: " + pessoa2.numFigurinhas +"\n");
 		
 		//Realizando a troca
 		
-		Rafael.Dar(3);
-		Jorge.Receber(3);
-		Jorge.Dar(5);
-		Rafael.Receber(5);
+		pessoa1.Dar(35, pessoa2);
 		
 		//Resultado final
-		System.out.println("Número de figurinhas do Rafael depois da troca: " + Rafael.numFigurinhas);
-		System.out.println("Número de figurinhas do Jorge depois da troca: " + Jorge.numFigurinhas);
+		
+		if(pessoa1.x > 1) {
+			System.out.println("");
+		}else {
+		System.out.println("Número de figurinhas do Pedro depois da troca: " + pessoa1.numFigurinhas);
+		System.out.println("Número de figurinhas do Jorge depois da troca: " + pessoa2.numFigurinhas);
 	}
-
+	}
 }
