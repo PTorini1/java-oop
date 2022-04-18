@@ -1,19 +1,29 @@
+import java.util.Scanner;
 
 public class Aplicacao {
 
 	public static void main(String[] args) {
-
+		
+		Scanner valor = new Scanner(System.in);
 		Matematica matematica = new Matematica();
 		
-		int soma = matematica.somar(3, 4);
-		System.out.println("O resultado é "+soma);
 		
-		soma = matematica.somar(3,4,5);		
-		System.out.println("O resultado é "+soma);
+		System.out.println("Área dos polígonos");
+		System.out.println("Digite a altura do polígono");
+		int x = valor.nextInt();
+		System.out.println("Digite a largura do polígono");
+		int y = valor.nextInt();
 		
-		double soma2 = matematica.somar(3.5,4);
-		System.out.println("O resultado é "+soma2);
+		int areaQ = matematica.area(x,y);
 		
+		double areaT = matematica.area(x,y);
+		
+		int areaR = matematica.area(x,y);
+		
+		System.out.println("");
+		System.out.println("A área do quadrado é: " + areaQ);
+		System.out.println("A área do triângulo é: " + areaT);
+		System.out.println("A área do retângulo é: " + areaR);
 	}
 
 }

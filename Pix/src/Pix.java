@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Pix {
 	Scanner entrada = new Scanner(System.in);
 	Cliente cliente = new Cliente();
+	Main main = new Main();
 	int valida = 0;
 
 	void validar(String chave) {
@@ -44,7 +45,7 @@ public class Pix {
 	}
 
 	void transferir() {
-
+		cliente.saldo=;
 	}
 
 	void receber() {

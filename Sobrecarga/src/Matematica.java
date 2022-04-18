@@ -1,19 +1,16 @@
 
 public class Matematica {
-	int somar(int x, int y) {
-		//Outra forma de fazer
-		//int z=x+y; 
-		//return z;
-		return x+y;
-	}
-	
-	int somar(int x, int y, int z) {	
-		return x+y+z;
-	}
-	
-	double somar(double x, double y) {
-		return x+y;
-	}
-	
-}
 
+	double area(double x, double y) {
+		return x * y / 2;
+		System.out.println("A área do seu triângulo é:" + area);
+	}
+
+	int area(int x, int y) {
+		if (x == y) {
+			return x * x;
+		} else {
+			return x * y;
+		}
+	}
+}
