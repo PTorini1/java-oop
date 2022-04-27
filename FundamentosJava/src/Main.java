@@ -103,13 +103,13 @@ public class Main {
 //			x = x + 1;
 //			System.out.println(x);
 //		} while (x < 10);
-		
+	
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite o número que você deseja saber a tabuada");
 		int x = entrada.nextInt();
 		
-		for(x=x; x<11; x++) {
-			System.out.println(x + " x " + x + " = " + x*x);
+		for(int y=1; y<=10; y++) {
+			System.out.println(x + " x "+ y + " = "+ x*y);
 		}
 		
 
