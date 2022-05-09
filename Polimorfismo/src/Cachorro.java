@@ -7,9 +7,7 @@ public class Cachorro  extends Animal{
 		System.out.println("AU AU");
 	}
 	
-	@Override
 	public void Morder() {
-		super.Morder();
 		System.out.println("NHAC!!");
 	}
 	

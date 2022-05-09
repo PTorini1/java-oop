@@ -5,8 +5,4 @@ public class Animal {
 		
 	}
 	
-	public void Morder() {
-		
-	}
-	
 }
