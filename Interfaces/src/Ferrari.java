@@ -1,5 +1,5 @@
 
-public class Ferrari implements Automovel{
+public class Ferrari implements Automovel, ItemCaro{
 
 	@Override
 	public void virarEsquerda() {
@@ -17,6 +17,11 @@ public class Ferrari implements Automovel{
 	public void acelerar() {
 		System.out.println("Ferrari acelerou");
 		
+	}
+
+	@Override
+	public double getPreco() {
+		return 1000000;
 	}
 	
 }
