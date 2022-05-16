@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-	
+
 //		int x = 100;
 //		double y = 200.3;
 //
@@ -103,15 +103,45 @@ public class Main {
 //			x = x + 1;
 //			System.out.println(x);
 //		} while (x < 10);
-	
-		Scanner entrada = new Scanner(System.in);
-		System.out.println("Digite o número que você deseja saber a tabuada");
-		int x = entrada.nextInt();
-		
-		for(int y=1; y<=10; y++) {
-			System.out.println(x + " x "+ y + " = "+ x*y);
+//	
+//		Scanner entrada = new Scanner(System.in);
+//		System.out.println("Digite o número que você deseja saber a tabuada");
+//		int x = entrada.nextInt();
+//		
+//		for(int y=1; y<=10; y++) {
+//			System.out.println(x + " x "+ y + " = "+ x*y);
+//		}
+//		
+//		double x[]= {3,5,7};
+//		
+//		for (int aux = 0; aux<x.length;aux++){
+//			System.out.println("O valor do índice " + aux + " é = " + x[aux]);
+//		}
+//		
+//		String nome[]= {"Pedro", "Henrique", "Spiecker","Torini"};
+//		
+//		for (int aux1 = 0; aux1<nome.length; aux1++) {
+//			System.out.println(nome[aux1]);
+//			if (nome[aux1] == "Henrique") {
+//				System.out.println("o Índice de Henrique é: " + aux1);
+//			}
+//		}
+//		
+		int[] arrayInt = new int[5];
+		String[] arrayString = new String[4];
+		double[] arrayDouble = new double[3];
+
+		arrayInt[3] = 4;
+
+		int[] numero = new int[5];
+		Scanner teclado = new Scanner(System.in);
+		for (int aux2 = 0; aux2 < numero.length; aux2++) {
+			System.out.println("Digite um número qualquer");
+			numero[aux2] = teclado.nextInt();
 		}
-		
+		for (int aux2 = 0; aux2 < numero.length; aux2++) {
+			System.out.println("Índice " + aux2 + " = " + numero[aux2]);
+		}
 
 	}
 
