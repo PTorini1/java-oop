@@ -1,39 +1,60 @@
+enum Sexo{
+		MASCULINO,FEMININO;
+	}
 
 public class Pessoa {
 
-	private enum Sexo{
-		MASCULINO,FEMININO;
-	}
 
 	@Override
 	public String toString() {
 		return "Pessoa [nome=" + nome + ", idade=" + idade + "]";
 	}
-
-	String nome;
-	int idade;
-	Endereco endereco;
-	int sexo;
 	
-	public Pessoa(String nome, int idade, int sexo) {
+
+	private String nome;
+	private int idade;
+	private Sexo sexo;
+	Endereco endereco;
+	
+	public Pessoa(String nome, int idade, Sexo sexo) {
 		this.nome = nome;
 		this.idade = idade;
 		this.sexo = sexo;
 	}
 		
 	public Endereco getEndereco() {
-		return endereco;
+		return endereco;		
 	}
 
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
 	
-	public void sexo() {
-		if(sexo==1) {
-			Sexo.MASCULINO;
-		}else {
-			Sexo.FEMININO;
-		}
+	public String getNome() {
+		return nome;
 	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	
+	public Sexo getSexo() {
+		return sexo;
+	}
+	
+	public void setSexo(Sexo sexo) {
+		this.sexo = sexo;
+	}
+
 }
+
+
+

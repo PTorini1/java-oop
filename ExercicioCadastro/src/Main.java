@@ -11,16 +11,15 @@ public class Main {
 		
 		Object arrayDados[] = new Object[4];
 		for(int dados = 0; dados<arrayDados.length;dados++) {
-			Pessoa pessoa = new Pessoa(null, dados);
+			Pessoa pessoa = new Pessoa(null, dados, dados);
 			pessoa.setEndereco(new Endereco(null, dados, null));
-			pessoa.
 			System.out.println("Olá!");
 			System.out.println("Digita o nome ai: ");
-			pessoa.nome= entrada.next();
+			pessoa.setNome(entrada.next());
 			System.out.println("Digite sua idade ai: ");
-			pessoa.idade= entrada.nextInt();
+			pessoa.setIdade(entrada.nextInt());
 			System.out.println("Qual o seu sexo oh chará: 1-Masculino  2-Feminino");
-			pessoa.sexo.sex= entrada.nextInt();
+			pessoa.setSexo(entrada.nextInt());
 			System.out.println("Agora umas informações sobre seu endereço ");
 			System.out.println("Qual a rua: ");
 			pessoa.endereco.rua=entrada.next();
