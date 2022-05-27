@@ -5,7 +5,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		// A classe Scanner e usada para interagir com o usuario e permitir que ele possa colocar suas proprias respostas no console ao inves de so pegar
-		// respostas pre-determinadas
+		// respostas pre-determinadas. Aqui a foi instanciada a variavel valor do tipo Scanner
 		Scanner valor = new Scanner(System.in);
 		// Aqui foi instanciada a variavel matematica do tipo Matematica para poder ter acesso ao metodos da classe Matematica
 		Matematica matematica = new Matematica();
