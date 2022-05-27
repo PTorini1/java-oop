@@ -1,14 +1,19 @@
+//Importacao da classe objects
 import java.util.Objects;
 
 public class Cliente {
+	// Atributos do cliente privados, pois as outras classes nao podem ter facil acesso a eles
 	private String nome;
 	private int cpf;
 	private int numConta;
 	
+	// Metodo generico Cliente
 	public Cliente() {
 		
 	}
 	
+	// Insersao de getter e setters
+	// Get pega o valor e set atribui um valor para a variavel
 	public String getNome() {
 		return nome;
 	}
@@ -28,11 +33,13 @@ public class Cliente {
 		this.numConta = numConta;
 	}
 
+	//toString e um metodo do proprio java que retorna escrito o valor de todas as variaveis da classe 
 	@Override
 	public String toString() {
-		return "Nome = " + nome + "\nCPF = " + cpf + "\nNúmero de Conta = " + numConta+"\n";
+		return "Nome = " + nome + "\nCPF = " + cpf + "\nNÃºmero de Conta = " + numConta+"\n";
 	}
 
+	//hashCode e um metodo do Java que retorna variaveis como objetos
 	@Override
 	public int hashCode() {
 		return Objects.hash(cpf, nome, numConta);
