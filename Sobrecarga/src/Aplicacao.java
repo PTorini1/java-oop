@@ -1,9 +1,10 @@
-import java.util.Scanner;
+//Aqui foi importada a classe Scanner
+import java.util.Scanner; 
 
 public class Aplicacao {
 
 	public static void main(String[] args) {
-		// O metodo Scanner e usado para interagir com o usuario e permitir que ele possa colocar suas proprias respostas no console ao inves de so pegar
+		// A classe Scanner e usada para interagir com o usuario e permitir que ele possa colocar suas proprias respostas no console ao inves de so pegar
 		// respostas pre-determinadas
 		Scanner valor = new Scanner(System.in);
 		// Aqui foi instanciada a variavel matematica do tipo Matematica para poder ter acesso ao metodos da classe Matematica
