@@ -2,6 +2,7 @@
 public class Calculadora2 {
 
 	public static void main(String[] args) {
+		// Declarando variaveis
 		double n1=10;
 		double n2=3;
 		double resultSoma;
@@ -9,17 +10,18 @@ public class Calculadora2 {
 		double resultMult;
 		double resultDiv;
 		
+		// Atribuindo contas as variaveis criadas
 		resultSoma = n1+n2;
-		System.out.println("A soma È: " + resultSoma);
+		System.out.println("A soma √©: " + resultSoma);
 		
 		resultSub = n1-n2;
-		System.out.println("A subtraÁ„o È: " + resultSub);
+		System.out.println("A subtra√ß√£o √©: " + resultSub);
 		
 		resultMult = n1*n2;
-		System.out.println("A multiplicaÁ„o È: " + resultMult);
+		System.out.println("A multiplica√ß√£o √©: " + resultMult);
 		
 		resultDiv = n1/n2;
-		System.out.println("A divis„o È: " + resultDiv);
+		System.out.println("A divis√£o √©: " + resultDiv);
 		
 	}
 
