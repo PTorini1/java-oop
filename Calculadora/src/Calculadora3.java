@@ -1,8 +1,10 @@
+// Importando classe Scanner
 import java.util.Scanner;
 
 public class Calculadora3 {
 
 	public static void main(String[] args) {
+		// Declarando variaveis
 		int n1;
 		int n2;
 		
@@ -11,7 +13,8 @@ public class Calculadora3 {
 	
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Digite a operaÁ„o desejada (+,-,*,/)");
+		// Interacao com o usuario
+		System.out.println("Digite a opera√ß√£o desejada (+,-,*,/)");
 		op=entrada.nextLine();
 		
 		System.out.println("Digite um valor: ");
@@ -20,28 +23,29 @@ public class Calculadora3 {
 		System.out.println("Digite um segundo valor: ");
 		n2=Integer.parseInt(entrada.nextLine());
 		
+		// Validacao das contas de acordo com o que o usuario digitou
 		if(op.equals("+")) {
-			System.out.println("O resultado da soma È: "+(n1+n2));
+			System.out.println("O resultado da soma √©: "+(n1+n2));
 			control++;
 		}
 
 		if(op.equals("-")) {
-			System.out.println("O resultado da subtraÁ„o È: "+(n1-n2));
+			System.out.println("O resultado da subtra√ß√£o √©: "+(n1-n2));
 			control++;
 		}
 		
 		if(op.equals("*")) {
-			System.out.println("O resultado da multiplicaÁ„o È: "+(n1*n2));
+			System.out.println("O resultado da multiplica√ß√£o √©: "+(n1*n2));
 			control++;
 		}
 		
 		if(op.equals("/")) {
-			System.out.println("O resultado da divis„o È: "+(n1/n2));
+			System.out.println("O resultado da divis√£o √©: "+(n1/n2));
 			control++;
 		}
 		
 		if(control == 0) {
-			System.out.println("OperaÁ„o inv·lida, Tente novamente!");
+			System.out.println("Opera√ß√£o inv√°lida, Tente novamente!");
 		}
 	}
 
