@@ -1,7 +1,8 @@
 // A classe fusca implementou apenas a interface carro  e nao implementou a itemCaro, pois fusca nao e um item caro
+// Nao foi necessario implementar a classe automovel, pois a interface Carro ja implementa automovel, entao vem os metodos das duas
 public class Fusca implements Carro {
 
-	// Os metodos virarEsquerda, direira e acelerar foram sobrescritos
+	// Os metodos virarEsquerda, direira, acelerar e abrirPorta foram sobrescritos
 	@Override
 	public void virarEsquerda() {
 		System.out.println("Fusca virou a esquerda");
