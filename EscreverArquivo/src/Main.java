@@ -15,7 +15,7 @@ public class Main {
 		List<String> listaSabonetes = new ArrayList<String>();
 		Object arraySabonetes[] = new Object[3];
 		for (int sab = 0; sab < arraySabonetes.length; sab++) {
-			Sabonete sabonete1 = new Sabonete();
+			Sabonete sabonete1 = new Sabonete(null, null);
 			System.out.println("Digite a cor do sabonete");
 			sabonete1.setCor(entrada.next());
 			System.out.println("Digite o cheiro do sabonete");
@@ -25,26 +25,32 @@ public class Main {
 
 		try (BufferedWriter sabonete = new BufferedWriter(new FileWriter("sabonete.txt"))) {
 			for (String sab : listaSabonetes) {
-				sabonete.write(sab);
+				sabonete.write(sab+"\n");
 			}
 		}
 		
+		List<String>listaSabonetes2 = new ArrayList<String>();
+		
 		try(BufferedReader reader = new BufferedReader(new FileReader("sabonete.txt"))){
 			String line;
-			String string="";
 			
 			while((line = reader.readLine()) != null) {
-				string += line + "\n";
+				Sabonete sabonete2 = new Sabonete(line);
+				listaSabonetes2.add(sabonete2.toString());
+			}	
+			
+			for (String sab : listaSabonetes2) {
+				System.out.println(sab);
 			}
 			
-			System.out.println(string);
 			
 		}
+		
 		
 		
 		
 //		String s = "Texto para ser gravado \n no arquivo eeeeeee";
-//		// FILEWRITER aponta o arquivo no computador
+//		FILEWRITER aponta o arquivo no computador
 //		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) {
 //			escrever.write(s);
 //		}

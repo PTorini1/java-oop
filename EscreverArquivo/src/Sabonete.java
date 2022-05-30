@@ -3,7 +3,7 @@ public class Sabonete {
 	
 	@Override
 	public String toString() {
-		return "Sabonete [cheiro=" + cheiro + ", cor=" + cor + "]";
+		return "Sabonete: cheiro=" + cheiro + ", cor=" + cor;
 	}
 	
 	private String cheiro;
@@ -14,8 +14,13 @@ public class Sabonete {
 		this.cor = cor;
 	}
 	
-	public Sabonete() {
-
+	public Sabonete(String texto) {
+		String[]ArrayTeste1 = texto.split(",");
+		String[]ArrayTeste2 = ArrayTeste1[0].split("=");
+		this.cheiro = ArrayTeste2[1].trim();
+		
+		String[] ArrayTeste3 = ArrayTeste1[1].split("=");
+		this.cor = ArrayTeste3[1].trim();
 	}
 	
 	public String getCheiro() {

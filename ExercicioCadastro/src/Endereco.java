@@ -3,7 +3,7 @@ public class Endereco {
 
 	@Override
 	public String toString() {
-		return "Endereco [rua=" + rua + ", numero=" + numero + ", bairro=" + bairro + "]";
+		return "Endereco rua=" + rua + ", numero=" + numero + ", bairro=" + bairro;
 	}
 
 	String rua;
