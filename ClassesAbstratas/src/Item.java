@@ -1,5 +1,6 @@
 // Item e uma classe abstrata, portanto, seus metodos sao genericos e vao ser melhor definidos pelas classes que extenderem dela
 public abstract class Item {
+	// Atribuindo variaveis
 	private int posX;
 	private int poxY;
 	

@@ -1,4 +1,1 @@
-Pessoa [nome=1, idade=1, sexo=MASCULINO Endereco rua=2, numero=2, bairro=1]
-Pessoa [nome=2, idade=2, sexo=FEMININO Endereco rua=2, numero=2, bairro=2]
-Pessoa [nome=2, idade=1, sexo=MASCULINO Endereco rua=1, numero=1, bairro=1]
-Pessoa [nome=1, idade=2, sexo=FEMININO Endereco rua=2, numero=2, bairro=1]
+Pessoa [nome=1, idade=1, sexo=MASCULINO,Endereco rua=1, numero=1, bairro=1]
