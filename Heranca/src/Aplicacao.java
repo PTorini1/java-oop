@@ -2,6 +2,8 @@
 public class Aplicacao {
 
 	public static void main(String[] args) {
+		// Aqui foi instanciado um novo objeto veiculo
+		// Com esse objeto eu consigo setar os atributos criados na classe veiculo
 		Veiculo veiculo = new Veiculo();
 		
 		veiculo.setMarca("Chelovrete");
@@ -11,8 +13,10 @@ public class Aplicacao {
 		veiculo.Buzinar();
 		System.out.println("-------------------");
 		
+		// Aqui foi instanciado um novo objeto carro
 		Carro carro = new Carro();
-		
+		// Como carro tambem e um veiculo, nao ha necessidade de instanciar outro objeto do tipo veiculo pois como ele herda de veiculo, herda tambem seus m
+		// metodos e atributos. A mesma coisa vale para a moto e o caminhao
 		carro.setMarca("Hyundai");
 		carro.setModelo("Gol");
 		carro.setAno(2030);
@@ -23,7 +27,7 @@ public class Aplicacao {
 		
 		Caminhao caminhao = new Caminhao();
 		caminhao.setMarca("Scania");
-		caminhao.setModelo("Grand„o");
+		caminhao.setModelo("Grand√£o");
 		caminhao.setAno(2009);
 		caminhao.Imprimir();
 		caminhao.Buzinar();
