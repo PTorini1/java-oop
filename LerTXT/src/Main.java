@@ -1,3 +1,4 @@
+// Aqui foram importados classes do java que serao utilizadas
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
