@@ -1,7 +1,8 @@
-
+// Moto tambem extende de veiculo
 public class Moto extends Veiculo {
-	
+	// Aqui tem um metodo a mais que o de empinar
 	public void empinar(){
-		System.out.println("EMPINAR … COISA DE OT¡RIO");
+		// Mensagem verdadeira, peco perdao pela sinceridade
+		System.out.println("EMPINAR √â COISA DE OT√ÅRIO");
 	}
 }
