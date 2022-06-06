@@ -28,8 +28,8 @@ public class Main {
 		
 		Gato gato = new Gato(); // Aqui eu instanciei um objeto do tipo gato
 		Cachorro cachorro = new Cachorro(); // Aqui eu instanciei um objeto do tipo cachorro
-		falar(gato); // aqui eu chamo o método falar que vem do objeto criado ('gato')
-		falar(cachorro); // aqui eu chamo o método falar que vem do objeto criado ('cachorro')
+		falar(gato); // aqui eu chamo o metodo falar que vem do objeto criado ('gato')
+		falar(cachorro); // aqui eu chamo o metodo falar que vem do objeto criado ('cachorro')
 	}
 	
 	//-------------------------------------------------------------------------------------------------//7

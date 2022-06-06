@@ -3,19 +3,20 @@ public class Endereco {
 
 	@Override
 	public String toString() {
-		return "Endereco rua=" + rua + ", numero=" + numero + ", bairro=" + bairro;
+		return "Endereco rua=" + rua + "- numero=" + numero + "- bairro=" + bairro;
 	}
 
 	private String rua;
 	private int numero;
 	private String bairro;
 
+
 	public Endereco() {
 
 	}
 
-	public Endereco(String[] linha) {
-		String[] ArrayTeste1 = linha[3].split(",");
+	public Endereco(String linha) {
+		String[] ArrayTeste1 = linha.split("-");
 		String[] ArrayTeste2 = ArrayTeste1[0].split("=");
 		this.rua = ArrayTeste2[1].trim();
 

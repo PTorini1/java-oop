@@ -14,7 +14,7 @@ public class Pessoa {
 	}
 
 	public Pessoa(String texto) {
-		String[] ArrayTeste1 = ((String) texto).split(",");
+		String[] ArrayTeste1 =texto.split(",");
 		String[] ArrayTeste2 = ArrayTeste1[0].split("=");
 		this.nome = ArrayTeste2[1].trim();
 
@@ -24,7 +24,7 @@ public class Pessoa {
 		String[] ArrayTeste4 = ArrayTeste1[2].split("=");
 		this.sexo = Sexo.valueOf(ArrayTeste4[1].trim());
 				
-		Endereco endereco = new Endereco(ArrayTeste1);
+		Endereco endereco = new Endereco(ArrayTeste1[3]);
 		this.endereco = endereco;
 	}
 
