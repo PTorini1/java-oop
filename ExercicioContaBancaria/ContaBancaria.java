@@ -19,7 +19,7 @@ public abstract class ContaBancaria {
 		saldo -= valor;
 	}
 	
-	public void trasnferir(double valor, ContaBancaria conta){
+	public void transferir(double valor, ContaBancaria conta){
 		saldo -= valor;
 		conta.depositar(valor);
 	}
