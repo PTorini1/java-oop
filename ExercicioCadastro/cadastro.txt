@@ -1,1 +1,4 @@
 Pessoa [nome=1, idade=1, sexo=MASCULINO,Endereco rua=1- numero=1- bairro=1]
+Pessoa [nome=1, idade=1, sexo=MASCULINO,Endereco rua=1- numero=1- bairro=1]
+Pessoa [nome=1, idade=1, sexo=MASCULINO,Endereco rua=1- numero=1- bairro=1]
+Pessoa [nome=1, idade=1, sexo=MASCULINO,Endereco rua=1- numero=1- bairro=1]
