@@ -1,6 +1,6 @@
 
 public class ContaBancaria {
-	
+	// Atributos da classe
 	private int numConta;
 	private boolean ativo;
 	private double saldo;
@@ -11,24 +11,25 @@ public class ContaBancaria {
 //		numConta = 1234;
 //	}
 	
-	public ContaBancaria(boolean ativo, double saldo) { //Overflow ou Sobrecarga de métodos
+	// Construtor da classe ContaBancaria que recebe apenas o saldo e se a conta esta ou nao ativa
+	public ContaBancaria(boolean ativo, double saldo) { //Overflow ou Sobrecarga de mï¿½todos
 		this.ativo = ativo;
 		this.saldo = saldo;
 	}
 
-
-
+	// Metodo que mostrar na tela o valor recebido e soma com  o saldo que ja existia
 	public void receber(double valor) {	
-		System.out.println("Você acaba de receber "+ valor);
+		System.out.println("Vocï¿½ acaba de receber "+ valor);
 		saldo += valor;	
 	}
 	
+	// Metodo que mostrar se e possivel ou nao realizar a a transferencia
 	public void transferir(double valor) {
 		if (valor > saldo) {
-			System.out.println("Você não pode realizar a transferência de "+ valor +" reais por falta de saldo");
+			System.out.println("Vocï¿½ nï¿½o pode realizar a transferï¿½ncia de "+ valor +" reais por falta de saldo");
 		}else {
 			saldo -= valor;
-			System.out.println("Você acaba de tranferir " + valor+" reais");
+			System.out.println("Vocï¿½ acaba de tranferir " + valor+" reais");
 		}	
 	}
 	

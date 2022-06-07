@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 	
-//		ContaBancaria conta1 = new ContaBancaria(true, 3.0); //new ContaBancaria(); = Construtor // conta1 = variável
+//		ContaBancaria conta1 = new ContaBancaria(true, 3.0); //new ContaBancaria(); = Construtor // conta1 = variï¿½vel
 //		ContaBancaria conta2 = new ContaBancaria(true, 5.0);
 //		
 //		conta1.ativo = true;
@@ -16,22 +16,25 @@ public class Main {
 //		
 //		System.out.println("Conta 1 \n");
 //		conta1.receber(100.8);
-//		System.out.println("O saldo da conta 1 agora é de "+conta1.saldo()+" reais \n");
+//		System.out.println("O saldo da conta 1 agora ï¿½ de "+conta1.saldo()+" reais \n");
 //		conta1.transferir(30);
-//		System.out.println("O saldo da conta 1 agora é de "+ conta1.saldo()+" reais \n");
+//		System.out.println("O saldo da conta 1 agora ï¿½ de "+ conta1.saldo()+" reais \n");
 //		
 //		System.out.println("Conta 2 \n");
 //		conta2.receber(200);
-//		System.out.println("O saldo da conta 2 agora é de "+conta2.saldo()+" reais \n");
+//		System.out.println("O saldo da conta 2 agora ï¿½ de "+conta2.saldo()+" reais \n");
 //		conta2.transferir(400);
-//		System.out.println("O saldo da conta 2 agora é de "+ conta2.saldo()+" reais \n");
+//		System.out.println("O saldo da conta 2 agora ï¿½ de "+ conta2.saldo()+" reais \n");
 //		
+		// Instanciando objeto do tipo cliente
 		Cliente cliente = new Cliente();
 		
+		// Setando valores para os atributos 
 		cliente.setNome("Pedro");
 		cliente.setCpf(121);
 		cliente.setNumConta(5546543);
 		
+		// Exibindo na tela
 		System.out.println(cliente);
 		
 		Cliente cliente2 = new Cliente();
@@ -43,21 +46,22 @@ public class Main {
 		System.out.println(cliente2);	
 		
 //		if(cliente.getNome() == cliente2.getNome()) {
-//			System.out.println("O nome é igual \n");
+//			System.out.println("O nome ï¿½ igual \n");
 //		} else {
-//			System.out.println("O nome é diferente \n");
+//			System.out.println("O nome ï¿½ diferente \n");
 //		}
 //		
+		// Comparacao para saber se os dados dos dois clientes instanciados sao iguais
 		if(cliente.equals(cliente2)) {
-			System.out.println("Os dados são iguais");
+			System.out.println("Os dados sï¿½o iguais");
 		}else {
-			System.out.println("Os dados são diferentes");
+			System.out.println("Os dados sï¿½o diferentes");
 		}
 		
 //		if(cliente == cliente2) {
-//			System.out.println("Os objetos são iguais");
+//			System.out.println("Os objetos sï¿½o iguais");
 //		} else {
-//			System.out.println("Os objetos são diferentes");
+//			System.out.println("Os objetos sï¿½o diferentes");
 //		}
 
 	}

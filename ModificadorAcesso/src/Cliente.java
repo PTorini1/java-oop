@@ -45,6 +45,7 @@ public class Cliente {
 		return Objects.hash(cpf, nome, numConta);
 	}
 
+	// o metodo equals serve para mostrar que dois objetos com o mesmo conteudo nao sejam iguais
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

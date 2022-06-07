@@ -8,6 +8,7 @@ public class Aplicacao {
 		retangulo.y=10;
 		retangulo.mostrarArea();
 		
+		// A mesma coisa feita com o retangulo foi feita com o quadrado e o triangulo
 		Quadrado quadrado = new Quadrado();
 		quadrado.x = 5;
 		quadrado.mostrarArea();

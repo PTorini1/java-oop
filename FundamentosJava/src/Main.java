@@ -32,7 +32,7 @@ public class Main {
 		
 		int idadePessoa = 60;
 		
-		// A clausula if serve para indicar um condicao. Ou seja, se a variavel receber um valor age de uma forma, se receber outro age de outra forma
+		// O if serve para indicar uma condicao. Ou seja, se a variavel receber um valor age de uma forma, se receber outro age de outra forma
 		// Aqui, se a variavel idadePessoa for maior que 18, ele vai poder beber, se for menor de 18 não pode beber e se tiver mais de 60 anos tambem
 		// nao vai poder
 		if (idadePessoa < 18) {

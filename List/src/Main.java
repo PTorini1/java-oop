@@ -20,7 +20,6 @@ public class Main {
 		
 		}
 		
-
 		//Enhanced for facilita o código, pois automaticamente interage com a lista (Interação mais simples)
 		for(Object valor: lista) {
 			System.out.println(valor);
@@ -62,13 +61,17 @@ public class Main {
 			System.out.println("Sua lista está vazia");
 		}
 
+		// Instanciando objetos do tipo conta
 		Conta conta1 = new Conta("Água",60.00);
 		Conta conta2 = new Conta("Luz",120.00);
 		
+		// aqui foi criada uma lista do tipo Conta
 		List<Conta>listaContas = new ArrayList<Conta>();
+		// Os valores instanciados estao sendo jogadas na lista criada
 		listaContas.add(conta1);
 		listaContas.add(conta2);
 		
+		// Enhanced for para mostrar na tela
 		for(Conta conta:listaContas) {
 			System.out.println(conta);
 		}

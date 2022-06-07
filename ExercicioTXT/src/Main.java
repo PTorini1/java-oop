@@ -36,7 +36,7 @@ public class Main {
 			while((line = ler.readLine()) != null) {
 				 string = string + "\n" + line;
 			}
-			
+			//Exibindo o conteudo do texto na tela
 			System.out.println(string);
 		}
 	}
