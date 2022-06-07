@@ -1,6 +1,6 @@
 
 public class Conta {
-	// toString e um metodo do Java que vai retornar o valor das variaveis criadas e forma de texto
+	// toString e um metodo do Java que vai retornar algum texto na tela
 	@Override
 	public String toString() {
 		return nome + " " + valor;
