@@ -26,7 +26,7 @@ public class Pessoa {
 		this.nome = ArrayTeste2[1].trim();
 
 		String[] ArrayTeste3 = ArrayTeste1[1].split("=");
-		// Como a variavek idade e um int foi necessario transforma-lo em string pois o metodo trim so da pra usar em string
+		// Como a variavel idade e um int foi necessario transforma-lo em string pois o metodo trim so da pra usar em string
 		// O Integer.parseInt faz essa funcao de transformar um int em String
 		// A classe Integer e propria do Java
 		this.idade = Integer.parseInt(ArrayTeste3[1].trim());
