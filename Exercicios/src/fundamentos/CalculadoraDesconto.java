@@ -1,3 +1,6 @@
+package fundamentos;
+import java.util.Scanner;
+
 public class CalculadoraDesconto {
 
 	public static void main(String[] args) {
@@ -8,7 +11,7 @@ public class CalculadoraDesconto {
 		String nomeProduto="";
 		
 		Scanner entrada = new Scanner(System.in);
-		
+		do {
 			System.out.println("Produtos Muito Bons LTDA");
 			System.out.println("Escolha o produto desejado: ");
 			System.out.println("1 - Mochila ");
@@ -16,6 +19,7 @@ public class CalculadoraDesconto {
 			System.out.println("3 - Blusa ");
 			System.out.println("4 - Calca");
 			produto = entrada.nextInt();
+		} while (produto != 1 && produto != 2 && produto != 3 && produto != 4);	
 			System.out.println("Digite o valor do produto em reais: ");
 			preco = entrada.nextFloat();
 			
@@ -47,7 +51,5 @@ public class CalculadoraDesconto {
 			System.out.println("O produto " + nomeProduto + " custa " + preco + ", mas com o desconto de " + showDesconto + " o preco final e de " + (preco*desconto));
 
 	}
-
-}
 
 }
