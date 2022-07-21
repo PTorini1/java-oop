@@ -33,5 +33,5 @@ public class ProgramaRevisao2 {
 		for (DadosCadastro dados : listaDados) {
 			System.out.println(dados);
 		}
-		System.out.println("A diferenca de salario entre os dois e de: " + (x-y));
+		System.out.println("A diferenca de salario entre os dois e de: " + Math.abs(x-y));
 	}
