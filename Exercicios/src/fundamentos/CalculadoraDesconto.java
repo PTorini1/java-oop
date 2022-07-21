@@ -49,7 +49,5 @@ public class CalculadoraDesconto {
 				showDesconto = "Produto inexistente";
 			}
 			System.out.println("O produto " + nomeProduto + " custa " + preco + ", mas com o desconto de " + showDesconto + " o preco final e de " + (preco*desconto));
-
 	}
-
 }

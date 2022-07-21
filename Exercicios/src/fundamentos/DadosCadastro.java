@@ -24,12 +24,10 @@ public class DadosCadastro {
 			this.salario = salario;
 		}
 		public DadosCadastro() {
-			
 		}
 		
 		@Override
 		public String toString() {
 			return "Nome: " + nome + " CPF: "+ cpf + " Salario " + salario;
 		}
-		
 }

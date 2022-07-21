@@ -29,7 +29,7 @@ public class ProgramaRevisao {
 			System.out.println("Digite seu salario");
 			salario2 = entrada.nextFloat();
 			
-			System.out.println("A diferença de salário entre " + nome + " e " + nome2 + " e igual a: " + (salario-salario2));
+			System.out.println("A diferença de salario entre " + nome + " e " + nome2 + " e igual a: " + (salario-salario2));
 		
 	}
 

@@ -35,3 +35,4 @@ public class ProgramaRevisao2 {
 		}
 		System.out.println("A diferenca de salario entre os dois e de: " + Math.abs(x-y));
 	}
+}
