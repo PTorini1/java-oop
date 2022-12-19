@@ -1,2 +1,2 @@
 # aulasJava
-Exercícios realizados no curso de desenvolvimento de sistemas do SENAI Manuel Garcia Filho durante o primeiro semestre com o intuito de aprender os conceitos da Programação Orientada a Objetos
+Exercises accomplished in the System Development course at SENAI Manuel Garcia Filho during the first semester in order to learn the concepts of Object Oriented Programming.
